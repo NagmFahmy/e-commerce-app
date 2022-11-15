@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.testRunner.Runner" time="247.085" tests="16" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Afaqy-EG-LAP-140\Documents\e-commerce-app\e-commerce\src\main\resources\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Afaqy-EG-LAP-140\Documents\e-commerce-app\e-commerce\target\test-classes;C:\Users\Afaqy-EG-LAP-140\Documents\e-commerce-app\e-commerce\target\classes;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\gherkin\24.1.0\gherkin-24.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-testng\7.9.0\cucumber-testng-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-junit\7.9.0\cucumber-junit-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Afaqy-EG-LAP-140\.jdks\openjdk-19.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Afaqy-EG-LAP-140\AppData\Local\Temp\surefire15237082829606092539\surefirebooter7570704576486186546.jar C:\Users\Afaqy-EG-LAP-140\AppData\Local\Temp\surefire15237082829606092539 2022-11-15T21-03-12_573-jvmRun1 surefire16329660273634298736tmp surefire_015950202079642768173tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Afaqy-EG-LAP-140\Documents\e-commerce-app\e-commerce\target\test-classes;C:\Users\Afaqy-EG-LAP-140\Documents\e-commerce-app\e-commerce\target\classes;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-java\4.6.0\selenium-java-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-api\4.6.0\selenium-api-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.6.0\selenium-chrome-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.6.0\selenium-chromium-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-json\4.6.0\selenium-json-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.6.0\selenium-devtools-v105-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.6.0\selenium-devtools-v106-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v107\4.6.0\selenium-devtools-v107-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.6.0\selenium-devtools-v85-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.6.0\selenium-edge-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.6.0\selenium-firefox-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.6.0\selenium-ie-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.6.0\selenium-remote-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-buffer\4.1.84.Final\netty-buffer-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-codec-http\4.1.84.Final\netty-codec-http-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-codec\4.1.84.Final\netty-codec-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-handler\4.1.84.Final\netty-handler-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-common\4.1.84.Final\netty-common-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.84.Final\netty-transport-classes-epoll-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.84.Final\netty-transport-classes-kqueue-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-epoll\4.1.84.Final\netty-transport-native-epoll-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.84.Final\netty-transport-native-kqueue-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.84.Final\netty-transport-native-unix-common-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport\4.1.84.Final\netty-transport-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-resolver\4.1.84.Final\netty-resolver-4.1.84.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-api\1.19.0\opentelemetry-api-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-context\1.19.0\opentelemetry-context-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.19.0\opentelemetry-exporter-logging-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.19.0\opentelemetry-sdk-metrics-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.19.0-alpha\opentelemetry-sdk-logs-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.19.0-alpha\opentelemetry-api-logs-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.19.0\opentelemetry-sdk-common-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.19.0\opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.19.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.19.0\opentelemetry-exporter-common-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.19.0\opentelemetry-sdk-trace-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.19.0\opentelemetry-sdk-1.19.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.19.0-alpha\opentelemetry-semconv-1.19.0-alpha.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-http\4.6.0\selenium-http-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.6.0\selenium-manager-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.6.0\selenium-safari-driver-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\seleniumhq\selenium\selenium-support\4.6.0\selenium-support-4.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\gherkin\24.1.0\gherkin-24.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-testng\7.9.0\cucumber-testng-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\io\cucumber\cucumber-junit\7.9.0\cucumber-junit-7.9.0.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Afaqy-EG-LAP-140\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Afaqy-EG-LAP-140"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Users\Afaqy-EG-LAP-140\.jdks\openjdk-19.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Afaqy-EG-LAP-140\Documents\e-commerce-app\e-commerce"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Afaqy-EG-LAP-140\AppData\Local\Temp\surefire15237082829606092539\surefirebooter7570704576486186546.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="Afaqy-EG-LAP-140"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Afaqy-EG-LAP-140\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AFAQY-~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.3"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\Afaqy-EG-LAP-140\Documents\e-commerce-app\e-commerce"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Afaqy-EG-LAP-140\.jdks\openjdk-19.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Afaqy-EG-LAP-140\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\OpenSSL-Win64\bin;C:\Program Files\VSCodium\bin;C:\Users\Afaqy-EG-LAP-140\AppData\Local\Microsoft\WindowsApps;C:\Users\Afaqy-EG-LAP-140\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Afaqy-EG-LAP-140\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Afaqy-EG-LAP-140\AppData\Local\Programs\Python\Python310;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="22.261">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}&#10;  (Session info: chrome=107.0.5304.107)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5673a68b677b5cde46e603606933624b, findElement {using=class name, value=result}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59121/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5673a68b677b5cde46e603606933624b" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5673a68b677b5cde46e603606933624b, findElement {using=class name, value=result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59121/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5673a68b677b5cde46e603606933624b
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario: guest user could register with valid data successfully &amp#27;[90m# src/main/resources/features/F01_Register.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser go to Register page&amp#27;[0m                                 &amp#27;[90m# org.example.stepDef.D01_registerStepDef.Register_Button()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enter valid data&amp#27;[0m                                     &amp#27;[90m# org.example.stepDef.D01_registerStepDef.Valid_Data()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser able to register successfully&amp#27;[0m                        &amp#27;[90m# org.example.stepDef.D01_registerStepDef.User_Login()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5673a68b677b5cde46e603606933624b, findElement {using=class name, value=result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59121/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5673a68b677b5cde46e603606933624b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.example.stepDef.D01_registerStepDef.User_Login(D01_registerStepDef.java:55)
+	at ✽.User able to register successfully(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F01_Register.feature:8)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 28186
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="20.258">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ico\-account&quot;}&#10;  (Session info: chrome=107.0.5304.107)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7c37a29754595a9549ba72aa981dbff2, findElement {using=class name, value=ico-account}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7c37a29754595a9549ba72aa981dbff2" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".ico\-account"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c37a29754595a9549ba72aa981dbff2, findElement {using=class name, value=ico-account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c37a29754595a9549ba72aa981dbff2
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario: user could login with valid email and password &amp#27;[90m# src/main/resources/features/F02_Login.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser enter to login page&amp#27;[0m                         &amp#27;[90m# org.example.stepDef.D02_loginStepDef.Login_Page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser Enter valid username and valid password&amp#27;[0m      &amp#27;[90m# org.example.stepDef.D02_loginStepDef.Valid_data()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser able to login successfully&amp#27;[0m                   &amp#27;[90m# org.example.stepDef.D02_loginStepDef.Login_Success()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".ico\-account"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c37a29754595a9549ba72aa981dbff2, findElement {using=class name, value=ico-account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c37a29754595a9549ba72aa981dbff2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.example.stepDef.D02_loginStepDef.Login_Success(D02_loginStepDef.java:44)
+	at ✽.User able to login successfully(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F02_Login.feature:6)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 24538
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="17.252"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="13.172"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="17.354"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="19.342"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="17.987">
+    <failure message="Index 3 out of bounds for length 3" type="java.lang.IndexOutOfBoundsException"><![CDATA[java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario Outline: User need to search with valid keyword &amp#27;[90m# src/main/resources/features/F04_Search.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser enter to login page&amp#27;[0m                         &amp#27;[90m# org.example.stepDef.D02_loginStepDef.Login_Page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Enter valid username and valid password&amp#27;[0m       &amp#27;[90m# org.example.stepDef.D02_loginStepDef.Valid_data()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser search with &amp#27;[0m&amp#27;[32m&amp#27;[1m"nike"&amp#27;[0m                           &amp#27;[90m# org.example.stepDef.D04_searchStepDef.Search(java.lang.String)&amp#27;[0m
+3
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser can find &amp#27;[0m&amp#27;[31m&amp#27;[1m"nike"&amp#27;[0m                              &amp#27;[90m# org.example.stepDef.D04_searchStepDef.Success(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.example.stepDef.D04_searchStepDef.Success(D04_searchStepDef.java:39)
+	at ✽.User can find "nike"(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F04_Search.feature:8)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 28416
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="13.653"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="10.037"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="9.853">
+    <failure message="element click intercepted: Element &lt;a href=&quot;http://demo.nopcommerce.com/&quot; aria-label=&quot;&quot; class=&quot;nivo-imageLink&quot; style=&quot;display: block;&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 430). Other element would receive the click: &lt;a href=&quot;http://demo.nopcommerce.com/&quot; aria-label=&quot;&quot; class=&quot;nivo-imageLink&quot; style=&quot;display: block;&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [462789e8d798324827d263d8e1308f1a, clickElement {id=6a9ff84d-63f4-45e8-a46c-ace1a8b3bd30}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59340}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59340/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (462789e8d798324827d263d8e1308f1a)] -&gt; class name: nivo-imageLink]&#10;Session ID: 462789e8d798324827d263d8e1308f1a" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="http://demo.nopcommerce.com/" aria-label="" class="nivo-imageLink" style="display: block;">...</a> is not clickable at point (674, 430). Other element would receive the click: <a href="http://demo.nopcommerce.com/" aria-label="" class="nivo-imageLink" style="display: block;">...</a>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [462789e8d798324827d263d8e1308f1a, clickElement {id=6a9ff84d-63f4-45e8-a46c-ace1a8b3bd30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59340}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59340/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (462789e8d798324827d263d8e1308f1a)] -> class name: nivo-imageLink]
+Session ID: 462789e8d798324827d263d8e1308f1a
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario: Click on First Slider    &amp#27;[90m# src/main/resources/features/F06_homeSliders.feature:3&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser Click on Nokia Slider&amp#27;[0m  &amp#27;[90m# org.example.stepDef.D06_homeSlidersStepDef.Nokia_Slider()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="http://demo.nopcommerce.com/" aria-label="" class="nivo-imageLink" style="display: block;">...</a> is not clickable at point (674, 430). Other element would receive the click: <a href="http://demo.nopcommerce.com/" aria-label="" class="nivo-imageLink" style="display: block;">...</a>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [462789e8d798324827d263d8e1308f1a, clickElement {id=6a9ff84d-63f4-45e8-a46c-ace1a8b3bd30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59340}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59340/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (462789e8d798324827d263d8e1308f1a)] -> class name: nivo-imageLink]
+Session ID: 462789e8d798324827d263d8e1308f1a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.example.stepDef.D06_homeSlidersStepDef.Nokia_Slider(D06_homeSlidersStepDef.java:26)
+	at ✽.User Click on Nokia Slider(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F06_homeSliders.feature:4)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mNokia URL shall be appeared&amp#27;[0m &amp#27;[90m# org.example.stepDef.D06_homeSlidersStepDef.Success()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 7023
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="12.959">
+    <failure message="element not interactable&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3b4ffda10a9e83a56c2b96b8b90e933e, clickElement {id=ec250755-e891-4944-ab77-87edc671ec26}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59362}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (3b4ffda10a9e83a56c2b96b8b90e933e)] -&gt; class name: nivo-imageLink]&#10;Session ID: 3b4ffda10a9e83a56c2b96b8b90e933e" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b4ffda10a9e83a56c2b96b8b90e933e, clickElement {id=ec250755-e891-4944-ab77-87edc671ec26}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59362}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b4ffda10a9e83a56c2b96b8b90e933e)] -> class name: nivo-imageLink]
+Session ID: 3b4ffda10a9e83a56c2b96b8b90e933e
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario: Click on Second Slider    &amp#27;[90m# src/main/resources/features/F06_homeSliders.feature:7&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser click on iphone slider&amp#27;[0m  &amp#27;[90m# org.example.stepDef.D06_homeSlidersStepDef.Second_Slider()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b4ffda10a9e83a56c2b96b8b90e933e, clickElement {id=ec250755-e891-4944-ab77-87edc671ec26}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59362}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b4ffda10a9e83a56c2b96b8b90e933e)] -> class name: nivo-imageLink]
+Session ID: 3b4ffda10a9e83a56c2b96b8b90e933e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.example.stepDef.D06_homeSlidersStepDef.Second_Slider(D06_homeSlidersStepDef.java:42)
+	at ✽.User click on iphone slider(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F06_homeSliders.feature:8)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mIphone URL shall be appeared&amp#27;[0m &amp#27;[90m# org.example.stepDef.D06_homeSlidersStepDef.Iphone()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 35065
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="11.562"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="12.66"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="19.776">
+    <failure message="Expected condition failed: waiting for number of open windows to be 2 (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59458/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf40d46cd9f1a2c505d33ce46cd27bd6" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for number of open windows to be 2 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59458/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf40d46cd9f1a2c505d33ce46cd27bd6
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario: User open rss                                                          &amp#27;[90m# src/main/resources/features/F07_followUs.feature:11&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mUser click on rss&amp#27;[0m                                                         &amp#27;[90m# org.example.stepDef.D07_followUsStepDef.rss()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59458/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf40d46cd9f1a2c505d33ce46cd27bd6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDef.D07_followUsStepDef.rss(D07_followUsStepDef.java:62)
+	at ✽.User click on rss(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F07_followUs.feature:12)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mPage shall be opened in new tab &amp#27;[0m&amp#27;[36m&amp#27;[1m"https://demo.nopcommerce.com/news/rss/1"&amp#27;[0m &amp#27;[90m# org.example.stepDef.D07_followUsStepDef.Face_book(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 11831
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="16.579"/>
+  <testcase name="runScenario" classname="org.example.testRunner.Runner" time="9.443">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.content&quot;}&#10;  (Session info: chrome=107.0.5304.107)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [88e89998dd5bb8cb3230d5b2fb62df35, findElement {using=class name, value=content}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59528}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59528/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 88e89998dd5bb8cb3230d5b2fb62df35" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".content"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88e89998dd5bb8cb3230d5b2fb62df35, findElement {using=class name, value=content}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59528}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59528/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 88e89998dd5bb8cb3230d5b2fb62df35
+]]></failure>
+    <system-out><![CDATA[
+@smoke
+Scenario: Add product to wishlist      &amp#27;[90m# src/main/resources/features/F08_Wishlist.feature:3&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on wishlist button&amp#27;[0m   &amp#27;[90m# org.example.stepDef.D08_WishlistStepDef.whishlist()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mGreen message shall be appeared&amp#27;[0m &amp#27;[90m# org.example.stepDef.D08_WishlistStepDef.Success_Message()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".content"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88e89998dd5bb8cb3230d5b2fb62df35, findElement {using=class name, value=content}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59528}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59528/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 88e89998dd5bb8cb3230d5b2fb62df35
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.example.stepDef.D08_WishlistStepDef.Success_Message(D08_WishlistStepDef.java:21)
+	at ✽.Green message shall be appeared(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F08_Wishlist.feature:5)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 46705
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

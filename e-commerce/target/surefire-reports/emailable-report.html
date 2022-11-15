@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">245,812</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="7">org.example.testRunner.Runner</td><td><a href="#m0">runScenario</a></td><td rowspan="7">1668539017794</td><td rowspan="7">20258</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m3">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m6">runScenario</a></td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">org.example.testRunner.Runner</td><td><a href="#m7">runScenario</a></td><td rowspan="9">1668539055307</td><td rowspan="9">13172</td></tr><tr class="passedeven"><td><a href="#m8">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m9">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m10">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m11">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m12">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m13">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m14">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m15">runScenario</a></td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;user could login with valid email and password&quot;</td><td>&quot;F02_Login | users could use login functionality to use their accounts&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.ico\-account&quot;}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c37a29754595a9549ba72aa981dbff2, findElement {using=class name, value=ico-account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c37a29754595a9549ba72aa981dbff2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.example.stepDef.D02_loginStepDef.Login_Success(D02_loginStepDef.java:44)
+	at ✽.User able to login successfully(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F02_Login.feature:6)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Click on Second Slider&quot;</td><td>&quot;F06_Login | Home Slider&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b4ffda10a9e83a56c2b96b8b90e933e, clickElement {id=ec250755-e891-4944-ab77-87edc671ec26}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59362}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b4ffda10a9e83a56c2b96b8b90e933e)] -&gt; class name: nivo-imageLink]
+Session ID: 3b4ffda10a9e83a56c2b96b8b90e933e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.example.stepDef.D06_homeSlidersStepDef.Second_Slider(D06_homeSlidersStepDef.java:42)
+	at ✽.User click on iphone slider(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F06_homeSliders.feature:8)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User open rss&quot;</td><td>&quot;F07_followUs | users could open followUs links&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of open windows to be 2 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59458/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf40d46cd9f1a2c505d33ce46cd27bd6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at org.example.stepDef.D07_followUsStepDef.rss(D07_followUsStepDef.java:62)
+	at ✽.User click on rss(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F07_followUs.feature:12)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Click on First Slider&quot;</td><td>&quot;F06_Login | Home Slider&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;http://demo.nopcommerce.com/&quot; aria-label=&quot;&quot; class=&quot;nivo-imageLink&quot; style=&quot;display: block;&quot;&gt;...&lt;/a&gt; is not clickable at point (674, 430). Other element would receive the click: &lt;a href=&quot;http://demo.nopcommerce.com/&quot; aria-label=&quot;&quot; class=&quot;nivo-imageLink&quot; style=&quot;display: block;&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [462789e8d798324827d263d8e1308f1a, clickElement {id=6a9ff84d-63f4-45e8-a46c-ace1a8b3bd30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59340}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59340/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (462789e8d798324827d263d8e1308f1a)] -&gt; class name: nivo-imageLink]
+Session ID: 462789e8d798324827d263d8e1308f1a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.example.stepDef.D06_homeSlidersStepDef.Nokia_Slider(D06_homeSlidersStepDef.java:26)
+	at ✽.User Click on Nokia Slider(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F06_homeSliders.feature:4)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User need to search with valid keyword&quot;</td><td>&quot;F04_Login | users could Search&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at org.example.stepDef.D04_searchStepDef.Success(D04_searchStepDef.java:39)
+	at ✽.User can find &quot;nike&quot;(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F04_Search.feature:8)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;guest user could register with valid data successfully&quot;</td><td>&quot;F01_Register | users could register with new accounts&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5673a68b677b5cde46e603606933624b, findElement {using=class name, value=result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59121/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5673a68b677b5cde46e603606933624b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.example.stepDef.D01_registerStepDef.User_Login(D01_registerStepDef.java:55)
+	at ✽.User able to register successfully(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F01_Register.feature:8)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add product to wishlist&quot;</td><td>&quot;Wishlist&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.content&quot;}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88e89998dd5bb8cb3230d5b2fb62df35, findElement {using=class name, value=content}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59528}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59528/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 88e89998dd5bb8cb3230d5b2fb62df35
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.example.stepDef.D08_WishlistStepDef.Success_Message(D08_WishlistStepDef.java:21)
+	at ✽.Green message shall be appeared(file:///C:/Users/Afaqy-EG-LAP-140/Documents/e-commerce-app/e-commerce/src/main/resources/features/F08_Wishlist.feature:5)
+... Removed 3 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;user need to change the currency to ERU&quot;</td><td>&quot;Currencies | users could change the currency&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;user opens facebook link&quot;</td><td>&quot;F07_followUs | users could open followUs links&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User open Twitter&quot;</td><td>&quot;F07_followUs | users could open followUs links&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User login with invalid username and password&quot;</td><td>&quot;F02_Login | users could use login functionality to use their accounts&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User Click on Sub-element&quot;</td><td>&quot;User want to click on subelement&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User need to search with sku&quot;</td><td>&quot;F04_Login | users could Search&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User open yourtube&quot;</td><td>&quot;F07_followUs | users could open followUs links&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User need to search with valid keyword&quot;</td><td>&quot;F04_Login | users could Search&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">org.example.testRunner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;User need to search with valid keyword&quot;</td><td>&quot;F04_Login | users could Search&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

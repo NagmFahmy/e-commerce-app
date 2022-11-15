@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: org.example.testRunner.Runner
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 247.085 s <<< FAILURE! - in org.example.testRunner.Runner
+org.example.testRunner.Runner.runScenario  Time elapsed: 22.261 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5673a68b677b5cde46e603606933624b, findElement {using=class name, value=result}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59121/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5673a68b677b5cde46e603606933624b
+
+org.example.testRunner.Runner.runScenario  Time elapsed: 20.258 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".ico\-account"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c37a29754595a9549ba72aa981dbff2, findElement {using=class name, value=ico-account}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59144}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59144/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c37a29754595a9549ba72aa981dbff2
+
+org.example.testRunner.Runner.runScenario  Time elapsed: 17.987 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3
+
+org.example.testRunner.Runner.runScenario  Time elapsed: 9.853 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="http://demo.nopcommerce.com/" aria-label="" class="nivo-imageLink" style="display: block;">...</a> is not clickable at point (674, 430). Other element would receive the click: <a href="http://demo.nopcommerce.com/" aria-label="" class="nivo-imageLink" style="display: block;">...</a>
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [462789e8d798324827d263d8e1308f1a, clickElement {id=6a9ff84d-63f4-45e8-a46c-ace1a8b3bd30}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59340}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59340/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (462789e8d798324827d263d8e1308f1a)] -> class name: nivo-imageLink]
+Session ID: 462789e8d798324827d263d8e1308f1a
+
+org.example.testRunner.Runner.runScenario  Time elapsed: 12.959 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b4ffda10a9e83a56c2b96b8b90e933e, clickElement {id=ec250755-e891-4944-ab77-87edc671ec26}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59362}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59362/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b4ffda10a9e83a56c2b96b8b90e933e)] -> class name: nivo-imageLink]
+Session ID: 3b4ffda10a9e83a56c2b96b8b90e933e
+
+org.example.testRunner.Runner.runScenario  Time elapsed: 19.776 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for number of open windows to be 2 (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59458/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf40d46cd9f1a2c505d33ce46cd27bd6
+
+org.example.testRunner.Runner.runScenario  Time elapsed: 9.443 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".content"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88e89998dd5bb8cb3230d5b2fb62df35, findElement {using=class name, value=content}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\AFAQY-~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59528}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59528/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 88e89998dd5bb8cb3230d5b2fb62df35
+
