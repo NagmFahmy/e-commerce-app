@@ -57,6 +57,7 @@ public class D01_registerStepDef {
         X.assertTrue(Hooks.driver.findElement(By.cssSelector("a[class=\"button-1 register-continue-button\"]")).isDisplayed());
         String Color=  Hooks.driver.findElement(By.className("result")).getCssValue("#color") ;
         X.assertTrue(true,Color);
+        X.assertAll();
     }
 
 

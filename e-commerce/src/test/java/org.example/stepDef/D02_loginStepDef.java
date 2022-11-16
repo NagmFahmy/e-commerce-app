@@ -42,6 +42,7 @@ public class D02_loginStepDef {
         String ExpectedResult = "//demo.nopcommerce.com/";
         Y.assertEquals(Hooks.driver.getCurrentUrl(),ExpectedResult);
         Y.assertTrue(Hooks.driver.findElement(By.className("ico-account")).isDisplayed());
+        Y.assertAll();
     }
 
     @When("User enter invalid username and password")
@@ -62,6 +63,7 @@ public class D02_loginStepDef {
         String Color = Hooks.driver.findElement(By.className("message-error")).getCssValue("color") ;
         System.out.println(Color);
         Z.assertTrue(true,Color);
+        Z.assertAll();
 
     }
 

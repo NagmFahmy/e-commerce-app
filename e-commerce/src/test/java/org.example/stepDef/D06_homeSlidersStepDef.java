@@ -31,6 +31,7 @@ public class D06_homeSlidersStepDef {
         SoftAssert soft=new SoftAssert();
         String ExpectedResult = "https://demo.nopcommerce.com/nokia-lumia-1020";
         soft.assertEquals(Hooks.driver.getCurrentUrl(),ExpectedResult,"error");
+        soft.assertAll();
     }
 
     @When("User click on iphone slider")
@@ -46,5 +47,6 @@ public class D06_homeSlidersStepDef {
     public void Iphone(){
         SoftAssert S = new SoftAssert();
         S.assertEquals(Hooks.driver.getCurrentUrl(),"https://demo.nopcommerce.com/iphone-6");
+        S.assertAll();
     }
 }
