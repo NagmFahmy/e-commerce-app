@@ -26,7 +26,7 @@ public class D04_searchStepDef {
     @Then("User can find {string}")
     public void Success(String arg01){
 
-        String ExprectedResult = "https://demo.nopcommerce.com/search?q="+ arg01;
+        String ExprectedResult = "https://demo.nopcommerce.com/search?q="+arg01;
         String ExpectedRsult2 = "https://demo.nopcommerce.com/search?q=";
         Assert.assertEquals(Hooks.driver.getCurrentUrl(),ExprectedResult);
         Assert.assertEquals(Hooks.driver.getCurrentUrl().contains(ExpectedRsult2),true);
@@ -34,7 +34,7 @@ public class D04_searchStepDef {
 
         System.out.println(S.ProductItems().size());
 
-        for(int i=1; i<=S.ProductItems().size();i++){
+        for(int i=0; i<S.ProductItems().size();i++){
 
             Assert.assertTrue(S.ProductItems().get(i).getText().toLowerCase().contains(arg01));
 

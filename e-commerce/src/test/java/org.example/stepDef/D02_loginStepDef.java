@@ -27,8 +27,8 @@ public class D02_loginStepDef {
     }
     @When("User Enter valid username and valid password")
     public void Valid_data() throws InterruptedException {
-       login.E_Mail().sendKeys("M@hotmail.com");
-       login.Password().sendKeys("123456");
+       login.E_Mail().sendKeys("Nagmfahmyy@hotmail.com");
+       login.Password().sendKeys("AAAAAA");
       //  Hooks.driver.findElement(By.cssSelector("button[class=\"button-1 login-button\"]")).click();
         login.Password().sendKeys(Keys.ENTER);
 
@@ -39,7 +39,7 @@ public class D02_loginStepDef {
     public void Login_Success() throws InterruptedException {
         Thread.sleep(3000);
         SoftAssert Y = new SoftAssert();
-        String ExpectedResult = "//demo.nopcommerce.com/";
+        String ExpectedResult = "https://demo.nopcommerce.com/";
         Y.assertEquals(Hooks.driver.getCurrentUrl(),ExpectedResult);
         Y.assertTrue(Hooks.driver.findElement(By.className("ico-account")).isDisplayed());
         Y.assertAll();
